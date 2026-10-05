@@ -10,13 +10,13 @@ This portfolio is organized around one theme: connecting radio hardware, physica
 |---|---|---|
 | [P25 Reticulum Radio IP Lab](https://github.com/jjudge213/p25-reticulum-radio-ip-lab) | P25 CAI research, constrained IP transport, Linux routing, Reticulum messaging | Radio-to-terminal networking research, vendor-behavior comparison, and application-layer testing over a constrained radio-linked IP path |
 | [Harris XG-100M Vehicle Integration](https://github.com/jjudge213/harris-xg100m-vehicle-integration) | Vehicle communications installation around a Harris XG-100M | Control-head/radio placement, speaker integration, serviceability, operator access, and public-safe planning for power/RF/accessory paths |
-| [Radio Electronics Interface Lab](https://github.com/jjudge213/radio-electronics-interface-lab) | Radio interface hardware, cabling, SDR/RF, electronics bench work | Audio/PTT breakout work, keyfill cable fabrication, connector modification, microscope/breadboard inspection, HackRF spectrum observation, and manpack hardware concepts |
+| [Radio Electronics Interface Lab](https://github.com/jjudge213/radio-electronics-interface-lab) | Radio interface hardware, cabling, SDR/RF, electronics bench work | Audio/PTT breakout work, accessory-interface cable fabrication, connector modification, microscope/breadboard inspection, HackRF spectrum observation, and manpack hardware concepts |
 
 ## Systems View
 
 ```mermaid
 flowchart LR
-    radios["Radio platforms"] --> interfaces["Cable, audio, PTT, and keyfill interfaces"]
+    radios["Radio platforms"] --> interfaces["Cable, audio, PTT, and accessory interfaces"]
     interfaces --> terminals["Linux terminals and field computers"]
     radios --> vehicle["Vehicle radio integration"]
     radios --> rf["SDR and RF observation"]
@@ -29,7 +29,7 @@ flowchart LR
 - Tactical and digital radio systems, including P25-oriented lab work.
 - RF systems integration, SDR observation, and spectrum-level analysis.
 - Linux terminal networking, manual routing, and constrained IP transport testing.
-- Radio interface development: audio, speaker, microphone, PTT, keyfill, and connector work.
+- Radio interface development: audio, speaker, microphone, PTT, accessory-interface, and connector work.
 - Vehicle communications installation: control-head access, serviceability, audio usability, and future power/RF planning.
 - Electronics bench work: soldering, breadboarding, connector inspection, microscope review, and documentation.
 - Systems documentation with public-safe diagrams, outcome summaries, and clear boundaries around sensitive material.
@@ -39,7 +39,7 @@ flowchart LR
 - Integrated tactical radio, RF/electronics, Linux networking, and field troubleshooting experience into a public-safe systems-integration portfolio aligned to L3Harris-style communications roles.
 - Documented P25 radio-to-terminal IP experimentation, Reticulum messaging tests, and vendor-specific radio constraints using sanitized diagrams and outcome summaries.
 - Built and documented Harris XG-100M vehicle integration work, including control-head/radio placement, audio usability, serviceability, and future power/RF/accessory planning.
-- Fabricated and documented radio interface hardware including audio/PTT breakouts, keyfill cabling, connector modifications, and bench inspection workflows.
+- Fabricated and documented radio interface hardware including audio/PTT breakouts, accessory-interface cabling, connector modifications, and bench inspection workflows.
 - Applied disciplined redaction boundaries for tactical communications work, excluding operational frequencies, radio IDs, key material, codeplugs, credentials, and private infrastructure.
 
 ## Public Safety Boundary
