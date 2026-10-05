@@ -2,10 +2,6 @@
 
 Public-safe portfolio index for tactical radio systems, RF/electronics integration, constrained IP networking, and field communications work.
 
-## Purpose
-
-This portfolio is organized around one theme: connecting radio hardware, physical interfaces, and Linux/networking workflows into practical field systems. The projects below are intentionally sanitized. They show architecture, process, constraints, and hands-on integration work without publishing operational radio details, key material, private infrastructure, or sensitive identifiers.
-
 ## Systems View
 
 ```mermaid
@@ -17,6 +13,10 @@ flowchart LR
     terminals --> apps["Reticulum / TAK-style networking research"]
     interfaces --> bench["Bench electronics and inspection"]
 ```
+
+## Purpose
+
+This portfolio is organized around one theme: connecting radio hardware, physical interfaces, and Linux/networking workflows into practical field systems. The projects below are intentionally sanitized. They show architecture, process, constraints, and hands-on integration work without publishing operational radio details, key material, private infrastructure, or sensitive identifiers.
 
 ## Portfolio Map
 
