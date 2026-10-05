@@ -1,0 +1,45 @@
+# Tactical Radio Systems Portfolio
+
+Public-safe portfolio index for tactical radio systems, RF/electronics integration, constrained IP networking, and field communications work.
+
+This portfolio is organized around one theme: connecting radio hardware, physical interfaces, and Linux/networking workflows into practical field systems. The projects below are intentionally sanitized. They show architecture, process, constraints, and hands-on integration work without publishing operational radio details, key material, private infrastructure, or sensitive identifiers.
+
+## Portfolio Map
+
+| Project | Focus | What It Shows |
+|---|---|---|
+| [P25 Reticulum Radio IP Lab](https://github.com/jjudge213/p25-reticulum-radio-ip-lab) | P25 CAI research, constrained IP transport, Linux routing, Reticulum messaging | Radio-to-terminal networking research, vendor-behavior comparison, and application-layer testing over a constrained radio-linked IP path |
+| [Harris XG-100M Vehicle Integration](https://github.com/jjudge213/harris-xg100m-vehicle-integration) | Vehicle communications installation around a Harris XG-100M | Control-head/radio placement, speaker integration, serviceability, operator access, and public-safe planning for power/RF/accessory paths |
+| [Radio Electronics Interface Lab](https://github.com/jjudge213/radio-electronics-interface-lab) | Radio interface hardware, cabling, SDR/RF, electronics bench work | Audio/PTT breakout work, keyfill cable fabrication, connector modification, microscope/breadboard inspection, HackRF spectrum observation, and manpack hardware concepts |
+
+## Systems View
+
+```mermaid
+flowchart LR
+    radios["Radio platforms"] --> interfaces["Cable, audio, PTT, and keyfill interfaces"]
+    interfaces --> terminals["Linux terminals and field computers"]
+    radios --> vehicle["Vehicle radio integration"]
+    radios --> rf["SDR and RF observation"]
+    terminals --> apps["Reticulum / TAK-style networking research"]
+    interfaces --> bench["Bench electronics and inspection"]
+```
+
+## Relevant Capability Areas
+
+- Tactical and digital radio systems, including P25-oriented lab work.
+- RF systems integration, SDR observation, and spectrum-level analysis.
+- Linux terminal networking, manual routing, and constrained IP transport testing.
+- Radio interface development: audio, speaker, microphone, PTT, keyfill, and connector work.
+- Vehicle communications installation: control-head access, serviceability, audio usability, and future power/RF planning.
+- Electronics bench work: soldering, breadboarding, connector inspection, microscope review, and documentation.
+- Systems documentation with public-safe diagrams, outcome summaries, and clear boundaries around sensitive material.
+
+## Public Safety Boundary
+
+These repositories do not publish operational frequencies, talkgroups, radio IDs, serials, encryption keys, key-fill material, codeplugs, restricted manuals, private infrastructure details, credentials, private location data, or employer/customer proprietary material.
+
+Diagrams use placeholders and sanitized architecture. Project write-ups focus on the engineering process, integration choices, constraints, and lessons learned.
+
+## Resume Positioning
+
+This portfolio is most relevant to roles involving tactical communications, RF systems integration, field systems, radio/networking support, vehicle communications installation, Linux/network troubleshooting, or technician-engineer hybrid work.
