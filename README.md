@@ -34,6 +34,14 @@ flowchart LR
 - Electronics bench work: soldering, breadboarding, connector inspection, microscope review, and documentation.
 - Systems documentation with public-safe diagrams, outcome summaries, and clear boundaries around sensitive material.
 
+## Resume Bullets
+
+- Integrated tactical radio, RF/electronics, Linux networking, and field troubleshooting experience into a public-safe systems-integration portfolio aligned to L3Harris-style communications roles.
+- Documented P25 radio-to-terminal IP experimentation, Reticulum messaging tests, and vendor-specific radio constraints using sanitized diagrams and outcome summaries.
+- Built and documented Harris XG-100M vehicle integration work, including control-head/radio placement, audio usability, serviceability, and future power/RF/accessory planning.
+- Fabricated and documented radio interface hardware including audio/PTT breakouts, keyfill cabling, connector modifications, and bench inspection workflows.
+- Applied disciplined redaction boundaries for tactical communications work, excluding operational frequencies, radio IDs, key material, codeplugs, credentials, and private infrastructure.
+
 ## Public Safety Boundary
 
 These repositories do not publish operational frequencies, talkgroups, radio IDs, serials, encryption keys, key-fill material, codeplugs, restricted manuals, private infrastructure details, credentials, private location data, or employer/customer proprietary material.
