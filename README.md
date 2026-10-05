@@ -19,7 +19,7 @@ flowchart LR
     radios["Radio platforms"] --> interfaces["Cable, audio, PTT, and accessory interfaces"]
     interfaces --> terminals["Linux terminals and field computers"]
     radios --> vehicle["Vehicle radio integration"]
-    radios --> rf["SDR and RF observation"]
+    radios --> rf["SDR, NanoVNA, and RF observation"]
     terminals --> apps["Reticulum / TAK-style networking research"]
     interfaces --> bench["Bench electronics and inspection"]
 ```
@@ -27,7 +27,7 @@ flowchart LR
 ## Relevant Capability Areas
 
 - Tactical and digital radio systems, including P25-oriented lab work.
-- RF systems integration, SDR observation, and spectrum-level analysis.
+- RF systems integration, SDR observation, NanoVNA antenna checks, and spectrum-level analysis.
 - Linux terminal networking, manual routing, and constrained IP transport testing.
 - Radio interface development: audio, speaker, microphone, PTT, accessory-interface, and connector work.
 - Vehicle communications installation: control-head access, serviceability, audio usability, and future power/RF planning.
