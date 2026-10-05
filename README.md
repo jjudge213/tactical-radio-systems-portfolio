@@ -2,8 +2,6 @@
 
 Public-safe portfolio index for tactical radio systems, RF/electronics integration, constrained IP networking, and field communications work.
 
-## Systems View
-
 ```mermaid
 flowchart LR
     radios["Radio platforms"] --> interfaces["Cable, audio, PTT, and accessory interfaces"]
