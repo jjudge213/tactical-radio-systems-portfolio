@@ -20,9 +20,9 @@ This portfolio is organized around one theme: connecting radio hardware, physica
 
 | Project | Focus | What It Shows |
 |---|---|---|
-| [P25 Reticulum Radio IP Lab](https://github.com/jjudge213/p25-reticulum-radio-ip-lab) | P25 CAI research, constrained IP transport, Linux routing, Reticulum messaging | Radio-to-terminal networking research, vendor-behavior comparison, and application-layer testing over a constrained radio-linked IP path |
-| [Harris XG-100M Vehicle Integration](https://github.com/jjudge213/harris-xg100m-vehicle-integration) | Vehicle communications installation around a Harris XG-100M | Control-head/radio placement, speaker integration, serviceability, operator access, and public-safe planning for power/RF/accessory paths |
-| [Radio Electronics Interface Lab](https://github.com/jjudge213/radio-electronics-interface-lab) | Radio interface hardware, cabling, SDR/RF, electronics bench work | Audio/PTT breakout work, accessory-interface cable fabrication, connector modification, microscope/breadboard inspection, HackRF spectrum observation, and manpack hardware concepts |
+| [P25 Reticulum Radio IP Lab](https://github.com/jjudge213/p25-reticulum-radio-ip-lab) | P25 CAI research, constrained IP transport, Linux routing, Reticulum messaging | Radio-to-terminal networking, vendor comparison, and app-layer testing over IP-over-P25 |
+| [Harris XG-100M Vehicle Integration](https://github.com/jjudge213/harris-xg100m-vehicle-integration) | Vehicle communications installation around a Harris XG-100M | Control-head placement, fused power routing, speaker integration, feedline planning, and serviceability |
+| [Radio Electronics Interface Lab](https://github.com/jjudge213/radio-electronics-interface-lab) | Radio interface hardware, cabling, SDR/RF, electronics bench work | Audio/PTT breakouts, keyfill/interface cabling, NanoVNA/GNU Radio/HackRF work, and bench inspection |
 
 ## Relevant Capability Areas
 
